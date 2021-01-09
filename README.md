@@ -13,7 +13,7 @@ For this you'll need:
 * [PostgreSQL 10.13](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 * DB IDE [(I use DataGrip)](https://www.jetbrains.com/datagrip/)
 * [Visual Studio 201x (I use 2019)](https://visualstudio.microsoft.com/vs/)
-* [IMG Game Data](https://gitlab.com/YungMoozi/rebirthdata/)
+* [IMG Game Data](https://mega.nz/file/oaphzQ6D#C6rzgWqO9L-IGTZJHktZxhW4M5P1frbTJz-9oFyC3Wc)
 
 
 ### Setting Up Python
