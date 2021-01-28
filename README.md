@@ -5,6 +5,9 @@ The custom content (emojis, security features, etc) added by Raj have been strip
 This project uses .img files for data loading and all game data files are hot (eager) loaded on start. This consumes about 0.5GB of RAM when it's all loaded. Might want to reconsider this design choice if upgrading to current version of GMS, but for low versions it's completely fine to hot load the entire thing.  
 The documentation for this project is not good -- expect no less.  
 
+#### v95 Client Setup Link
+https://mega.nz/file/4OJSSJiR#T_1Q28mpC4UGCMCFGPtt8bTLXOwYedpD02aOElUhShc
+
 ## :hammer: Building
 Building this bad boi is a little finicky and the python dependency will throw endless errors unless a specific install recipe is followed. See below section for python instructions.  
 For this you'll need:  
