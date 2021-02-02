@@ -197,6 +197,8 @@ namespace Rebirth.Provider.ImgProvider
 
 		private void SaveToJson(string jsonFileName)
 		{
+			return; 
+
 			var json = JsonConvert.SerializeObject(_templates, Formatting.Indented);
 			File.WriteAllText(jsonFileName, json);
 		}
