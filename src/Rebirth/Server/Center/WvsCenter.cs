@@ -107,18 +107,19 @@ namespace Rebirth.Server.Center
 		/// <returns></returns>
 		private bool StartupHealthCheck()
 		{
-			foreach (var item in Constants.DATA_FILES)
-			{
-				var path = string.Concat(Constants.GameDataNXPath, item, Constants.DATA_FILE_EXTENSION);
+			// TODO validate img file data instead
+			//foreach (var item in Constants.DATA_FILES)
+			//{
+			//	var path = string.Concat(Constants.GameDataNXPath, item, Constants.DATA_FILE_EXTENSION);
 
-				if (!File.Exists(path))
-				{
-					Log.Error($"Missing data file. Name: {item}{Constants.DATA_FILE_EXTENSION}");
-					Log.Error($"Expected location: {Constants.GameDataNXPath}");
-					Log.Error($"Full expected path: {path}");
-					return false;
-				}
-			}
+			//	if (!File.Exists(path))
+			//	{
+			//		Log.Error($"Missing data file. Name: {item}{Constants.DATA_FILE_EXTENSION}");
+			//		Log.Error($"Expected location: {Constants.GameDataNXPath}");
+			//		Log.Error($"Full expected path: {path}");
+			//		return false;
+			//	}
+			//}
 
 			var cons = new string[][]
 			{
